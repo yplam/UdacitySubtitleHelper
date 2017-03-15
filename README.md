@@ -9,15 +9,15 @@ Udacity 字幕翻译助手
 
 此脚本依赖下面两个库，需要提前安装
 
-'''
+```
 
 sudo pip install pysrt google-api-python-client
 
-'''
+```
 
 **配置**
 
-'''
+```
 
 config = {
     'proxy_host' : '127.0.0.1',
@@ -25,7 +25,7 @@ config = {
     'api_key' : 'your key here'
 }
 
-'''
+```
 
 因为需要调用 Google 翻译 api，所以需要配置 Google 的 api key，需要自行申请，并且修改配置文件
 
